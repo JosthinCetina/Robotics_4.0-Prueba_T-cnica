@@ -1,0 +1,19 @@
+twist_mux:
+  ros__parameters:
+    topics:
+      teleop_keyboard:
+        topic: cmd_vel_teleop
+        timeout: 0.5
+        priority: 100
+      teleop_web:
+        topic: cmd_vel_web
+        timeout: 0.5
+        priority: 90
+      pose_controller:
+        topic: cmd_vel_pose
+        timeout: 0.5
+        priority: 50
+      nav2:
+        topic: cmd_vel_nav
+        timeout: 0.5
+        priority: 10

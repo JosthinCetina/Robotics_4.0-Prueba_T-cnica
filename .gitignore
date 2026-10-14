@@ -1,0 +1,16 @@
+# Exclusiones de ROS 2
+build/
+install/
+log/
+
+# Exclusiones de la aplicacion Web (Node.js)
+web/node_modules/
+web/dist/
+web/.cache/
+web/.vite/
+
+# Exclusiones del sistema
+.DS_Store
+*.swp
+*.pyc
+__pycache__/

@@ -1,0 +1,20 @@
+{
+  "name": "robotics-40-gui",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 3000",
+    "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "roslib": "^1.4.1"
+  },
+  "devDependencies": {
+    "@types/roslib": "^1.3.0",
+    "typescript": "^5.0.0",
+    "vite": "^4.4.0"
+  }
+}
